@@ -190,9 +190,9 @@ public class Scoreboards {
 					Bukkit.getConsoleSender().sendMessage("CompareString" + compare);
 					Bukkit.getConsoleSender().sendMessage("CompareEquals: " + s.equals(compare));
 				}
-//				if(s.equals(compare)) {
-//					continue;
-//				}
+				if(s.equals(compare)) {
+					continue;
+				}
 				if(s.length() > 16) {
 			        Iterator<String> iterator = this.Splitter(s);
 			        String prefix = iterator.next();
