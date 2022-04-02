@@ -1,0 +1,7 @@
+name: CTSNC_Scoreboard
+main: de.Herbystar.CTSNC_Modules.Scoreboard.Main
+version: 2.6
+author: Herbystar
+depend: [CTSNC, TTA]
+loadbefore: [CTSNC]
+description: Scoreboard module for CTSNC.
